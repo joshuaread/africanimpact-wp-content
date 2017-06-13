@@ -1,0 +1,42 @@
+/* Laptop */
+@media only screen and (min-width: 1000px){
+	#specialApply {display:none;}
+	.single-volunteer_projects h1 {font-size: 54px;line-height: 62px;text-align:center;} 
+	.single .heading-title {border-bottom:none;margin-bottom:0px;}
+	#post-area >article .content-inner {display:none;}
+	#priceBox {padding-top:12px!important;padding-bottom:12px!important;}
+	#priceBox .from {font-size:14px; letter-spacing:2px;padding-right:6px;}
+	#priceBox .pricing {font-size:32px; line-height:30px; padding-right:16px; font-weight:900;}
+	#priceBox a.nectar-button.small {padding:6px 14px; margin-top:0px; margin-bottom:0px;font-size:16px;letter-spacing:1px;font-weight:900;}
+	.single-volunteer_projects .page-submenu li.current-menu-item a {border-bottom:3px solid; font-weight:bold;}
+	#hiding, #hiding2, .hidingbutrelevant {display:none;}
+	.page-submenu li a {padding-top:14px!important;padding-bottom:12px!important;}
+	.Privileges p {font-size:16px;padding-bottom:0px}
+		
+}	
+
+/* Tablet */
+@media only screen and (min-width : 640px) and (max-width : 1000px) {
+	#specialApply {display:none;}
+		
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 639px) {
+	#priceBox {padding-top:2px!important;padding-bottom:2px!important;}
+	#priceBox .from {font-size:10px; letter-spacing:0px;padding-right:4px;}
+	#priceBox .pricing {font-size:13px; line-height:15px; padding-right:0px;}
+	#priceBox a.nectar-button.small {padding:4px 14px; margin-top:4px; display:none;}
+	body.single-volunteer_projects #post-area >article .content-inner {display:none;}
+	.single-volunteer_projects h1 {font-size: 20px;line-height: 28px;text-align:center;}
+	.single.single-volunteer_projects .heading-title {margin-bottom:0px;border:none;}
+	.page-submenu .mobile-menu-link {padding:10px 20px;}
+	.page-submenu ul {top:38px!important;position:relative!important;}
+	body #specialApply {display:none;}
+	body.single-volunteer_projects #specialApply {display:inline-block; position:relative; left:51%; top:5px;font-weight:bold;letter-spacing:1px;}
+	body h4, .row .col h4 {padding: 0px 6%; font-size:16px; line-height:22px;}
+	#hiding {display:none;}
+	a#toggle-nav {display:block; width:34px;border:1px solid red;}
+	body[data-slide-out-widget-area="true"] header#top #homelink {width:49%!important;}
+
+}
