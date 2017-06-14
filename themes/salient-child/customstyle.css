@@ -24,7 +24,19 @@
 	#field_2_8 {float:left; clear:right; width:19%;padding-right:24px;margin-top:5em;}
 	#field_2_8 a {font-weight:900; letter-spacing:1px;}
 	#input_2_7 {padding:0px!important;border:0px!important;font-size:30px!important;font-weight:900;}
-	select.large {background:#fcfcf9; font-size:20px!important; height:2em;}
+	select.large {background:#fefefe; font-size:20px!important; height:2em;}
+	#field_2_9,
+	#field_2_13,
+	#field_2_14 {float:left; clear:right; width:29%;padding-right:24px;}
+	#field_2_13,
+	#field_2_14 {padding-top:2px;}
+	#input_2_9 label {display:none;}
+	#field_2_16 {float:left; clear:right; width:85%;padding-right:0px;}
+	#input_2_9_3,
+	#input_2_13,
+	#input_2_14,
+	#input_2_16 {background:#fefefe!important;}
+	.gform_wrapper .gform_footer {font-size:20px; text-align:center;}
 /* DivTable.com */
 	.divTable{
 		display: table;
