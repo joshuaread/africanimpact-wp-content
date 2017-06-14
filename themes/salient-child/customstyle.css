@@ -17,7 +17,12 @@
 	
 /* GForms Styling */
 	#field_2_12, #field_3_12 {float:left; width:13%; clear:both;}
-	gform_wrapper select.large {background:#fcfcf9; font-size:20px;}
+	#field_2_1,
+	#field_2_2,
+	#field_2_3,
+	#field_2_7 {float:left; clear:right; width:20%;}
+	#input_2_7 {padding:0px!important;border:0px!important;font-size:24px!important;font-weight:900;}
+	select.large {background:#fcfcf9; font-size:20px!important; height:2em;}
 /* DivTable.com */
 	.divTable{
 		display: table;
@@ -26,15 +31,20 @@
 	.divTableRow {
 		display: table-row;
 	}
-	#thead {
-		background-color: #EEE;
-		font-weight:bold;
-	}
 	.divTableCell, .divTableHead {
 		border: 1px solid #eee;
 		display: table-cell;
 		padding: 3px 10px;
 		text-align:center;
+		color:#008ae6;
+		font-weight:600;
+	}
+	#thead {
+		background-color: #EEE;
+	}
+	#thead .divTableCell {
+		font-weight:900;
+		color:#666;
 	}
 	.divTableHeading {
 		background-color: #EEE;
