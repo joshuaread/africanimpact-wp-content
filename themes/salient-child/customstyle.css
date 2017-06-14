@@ -8,9 +8,11 @@
 	#priceBox .from {font-size:14px; letter-spacing:2px;padding-right:6px;}
 	#priceBox .pricing {font-size:32px; line-height:30px; padding-right:16px; font-weight:900;}
 	#priceBox a.nectar-button.small {padding:6px 14px; margin-top:0px; margin-bottom:0px;font-size:16px;letter-spacing:1px;font-weight:900;}
-	.single-volunteer_projects .page-submenu li.current-menu-item a {border-bottom:3px solid; font-weight:bold;}
+	.single-volunteer_projects .page-submenu li.current-menu-item a {border-bottom:5px solid; font-weight:bold;padding-bottom:7px!important;}
 	#hiding, #hiding2, .hidingbutrelevant {display:none;}
-	.page-submenu li a {padding-top:14px!important;padding-bottom:12px!important;}
+	.page-submenu li a {padding-top:12px!important;padding-bottom:12px!important;}
+	.page-submenu {display:none;}
+	.sticky-wrapper .page-submenu {display:block;}
 	.Privileges p {font-size:16px;padding-bottom:0px}
 		
 }	
