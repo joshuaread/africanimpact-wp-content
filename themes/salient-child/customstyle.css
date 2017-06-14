@@ -20,8 +20,8 @@
 	#field_2_1,
 	#field_2_2,
 	#field_2_3,
-	#field_2_7 {float:left; clear:right; width:20%;}
-	#input_2_7 {padding:0px!important;border:0px!important;font-size:24px!important;font-weight:900;}
+	#field_2_7 {float:left; clear:right; width:20%;padding-right:24px;}
+	#input_2_7 {padding:0px!important;border:0px!important;font-size:30px!important;font-weight:900;}
 	select.large {background:#fcfcf9; font-size:20px!important; height:2em;}
 /* DivTable.com */
 	.divTable{
