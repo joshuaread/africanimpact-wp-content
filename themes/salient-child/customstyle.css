@@ -78,8 +78,8 @@
 /* Owl Carousel */
 	.owl-controls{
 	}
-	.owl-carousel .owl-nav .owl-prev {display: inline-block; position: absolute; top:10px; left:70px;}
-	.owl-carousel .owl-nav .owl-next {display: inline-block; position: absolute; top:10px; left:100px;} 
+	.owl-carousel .owl-nav .owl-prev {display: inline-block!important; position: absolute; top:10px; left:70px;}
+	.owl-carousel .owl-nav .owl-next {display: inline-block!important; position: absolute; top:10px; left:100px;} 
 	.owl-carousel .owl-nav .owl-prev,
 	.owl-carousel .owl-nav .owl-next,
 	.owl-carousel .owl-dot {
@@ -95,16 +95,6 @@
 	    //fa-chevron-right
 	    content: "\f054";
 	    margin-right:10px;
-	}
-	.owl-buttons div{ /* left arrow */
-	    width: 55px; /* width background image */
-	    height: 0 !important;
-	    padding-top: 33px !important; /* height background image */
-	    float: left;
-	} 
-	.owl-buttons .owl-next{ /* right arrow */
-	    float: right;
-	    background: transparent url(../path/to/background-right-image.png) 0 0 no-repeat !important;
 	}
 		
 }	
