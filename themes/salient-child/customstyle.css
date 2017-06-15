@@ -25,19 +25,20 @@
 	#field_2_8 a {font-weight:900; letter-spacing:1px;}
 	#input_2_7 {padding:0px!important;border:0px!important;font-size:30px!important;font-weight:900;}
 	select.large {background:#fefefe; font-size:20px!important; height:2em;}
-	#field_2_9,
-	#field_2_13,
-	#field_2_14 {float:left; clear:right; width:29%;padding-right:24px;}
-	#field_2_13,
-	#field_2_14 {padding-top:2px;}
-	#input_2_9 label {display:none;}
-	#field_2_16 {float:left; clear:right; width:85%;padding-right:0px;}
+	#field_2_9, #field_3_9,
+	#field_2_13, #field_3_13,
+	#field_2_14, #field_3_14 {float:left; clear:right; width:29%;padding-right:24px;}
+	#field_2_13, #field_3_13,
+	#field_2_14, #field_3_14 {padding-top:2px;}
+	#input_2_9 label, #input_3_9 label {display:none;}
+	#field_2_16, #field_3_16 {float:left; clear:right; width:85%;padding-right:0px;}
 	#input_2_9_3,
 	#input_2_13,
 	#input_2_14,
 	#input_2_16 {background:#fefefe!important;}
 	.gform_wrapper .gform_footer {font-size:20px; text-align:center;}
-/* DivTable.com */
+
+/* DivTable-com */
 	.divTable{
 		display: table;
 		width: 100%;
@@ -72,6 +73,38 @@
 	}
 	.divTableBody {
 		display: table-row-group;
+	}
+
+/* Owl Carousel */
+	.owl-controls{
+	}
+	.owl-carousel .owl-nav .owl-prev {display: inline-block; position: absolute; top:10px; left:70px;}
+	.owl-carousel .owl-nav .owl-next {display: inline-block; position: absolute; top:10px; left:100px;} 
+	.owl-carousel .owl-nav .owl-prev,
+	.owl-carousel .owl-nav .owl-next,
+	.owl-carousel .owl-dot {
+	    font-family: 'fontAwesome';
+	
+	}
+	.owl-carousel .owl-nav .owl-prev:before{
+	    // fa-chevron-left
+	    content: "\f053";
+	    margin-right:10px;
+	}
+	.owl-carousel .owl-nav .owl-next:after{
+	    //fa-chevron-right
+	    content: "\f054";
+	    margin-right:10px;
+	}
+	.owl-buttons div{ /* left arrow */
+	    width: 55px; /* width background image */
+	    height: 0 !important;
+	    padding-top: 33px !important; /* height background image */
+	    float: left;
+	} 
+	.owl-buttons .owl-next{ /* right arrow */
+	    float: right;
+	    background: transparent url(../path/to/background-right-image.png) 0 0 no-repeat !important;
 	}
 		
 }	
