@@ -24,38 +24,26 @@
 	.secondhalfreview {padding-top:75px!important;}
 	
 /* GForms Styling */
-	body .gform_wrapper ul li.gfield.contact-me,
-	#field_2_12, #field_3_12 {float:left; width:13%; clear:both;}
-	#field_2_1, body .gform_wrapper ul li.gfield.dr-year,
-	#field_2_2, body .gform_wrapper ul li.gfield.dr-duration,
-	#field_2_3, body .gform_wrapper ul li.gfield.dr-currency,
-	#field_2_7, body .gform_wrapper ul li.gfield.dr-fees {float:left; clear:right; width:16%;padding-right:24px;}
+	body .gform_wrapper ul li.gfield.contact-me {float:left; width:13%; clear:both;}
+	body .gform_wrapper ul li.gfield.dr-year,
+	body .gform_wrapper ul li.gfield.dr-duration,
+	body .gform_wrapper ul li.gfield.dr-currency,
+	body .gform_wrapper ul li.gfield.dr-fees {float:left; clear:right; width:16%;padding-right:24px;}
 	body .gform_wrapper ul li.gfield.enquire-button {float:left; clear:right; width:19%;padding-right:24px;margin-top:5em;}
 	body .gform_wrapper ul li.gfield.enquire-button a {font-weight:900; letter-spacing:1px;}
 	body .gform_wrapper ul li.gfield.dr-fees input {padding:0px!important;border:0px!important;font-size:30px!important;font-weight:900;}
 	select.large {background:#fefefe; font-size:20px!important; height:2em;}
 	body .gform_wrapper ul li.gfield.full-name,
-	#field_2_9, #field_3_9,
 	body .gform_wrapper ul li.gfield.email,
-	#field_2_13, #field_3_13,
-	body .gform_wrapper ul li.gfield.phone,
-	#field_2_14, #field_3_14 {float:left; clear:right; width:29%;padding-right:24px;}
-	#field_2_13, #field_3_13,
-	#field_2_14, #field_3_14,
+	body .gform_wrapper ul li.gfield.phone {float:left; clear:right; width:29%;padding-right:24px;}
 	body .gform_wrapper ul li.gfield.email,
 	body .gform_wrapper ul li.gfield.phone {padding-top:2px;}
-	body .gform_wrapper ul li.gfield.full-name span.name_first label,
-	#input_2_9 label, #input_3_9 label {display:none;}
-	body .gform_wrapper ul li.gfield.message,
-	#field_2_16, #field_3_16 {float:left; clear:right; width:85%;padding-right:0px;}
+	body .gform_wrapper ul li.gfield.full-name span.name_first label {display:none;}
+	body .gform_wrapper ul li.gfield.message {float:left; clear:right; width:85%;padding-right:0px;}
 	body .gform_wrapper ul li.gfield.full-name input,
 	body .gform_wrapper ul li.gfield.email input,
 	body .gform_wrapper ul li.gfield.phone input,
-	body .gform_wrapper ul li.gfield.message input,	
-	#input_2_9_3,
-	#input_2_13,
-	#input_2_14,
-	#input_2_16 {background:#fefefe!important;}
+	body .gform_wrapper ul li.gfield.message textarea {background:#fefefe!important;}
 	.gform_wrapper .gform_footer {font-size:20px; text-align:center;}
 
 /* DivTable-com */
