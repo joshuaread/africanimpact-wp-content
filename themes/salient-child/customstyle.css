@@ -48,10 +48,10 @@
 	#input_2_9 label, #input_3_9 label {display:none;}
 	body .gform_wrapper ul li.gfield.message,
 	#field_2_16, #field_3_16 {float:left; clear:right; width:85%;padding-right:0px;}
-	body .gform_wrapper ul li.gfield.full-name,
-	body .gform_wrapper ul li.gfield.email,
-	body .gform_wrapper ul li.gfield.phone,
-	body .gform_wrapper ul li.gfield.message,	
+	body .gform_wrapper ul li.gfield.full-name input,
+	body .gform_wrapper ul li.gfield.email input,
+	body .gform_wrapper ul li.gfield.phone input,
+	body .gform_wrapper ul li.gfield.message input,	
 	#input_2_9_3,
 	#input_2_13,
 	#input_2_14,
