@@ -8,3 +8,8 @@ Template: salient
 Version: 0.1
 */
 
+
+.single-volunteer_projects .meta-author,
+.single-volunteer_projects .meta-category,
+.single-volunteer_projects .meta-comment-count,
+.single-volunteer_projects .post-meta {display: none;}
