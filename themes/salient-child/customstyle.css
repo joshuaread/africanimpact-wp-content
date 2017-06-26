@@ -1,9 +1,10 @@
 /* Laptop */
 @media only screen and (min-width: 1000px){
+	.single-volunteer_projects .heading-title[data-header-style="default_minimal"] {padding-top:0px;}
 	#specialApply {display:none;}
 	.single-volunteer_projects h1 {font-size: 54px;line-height: 62px;text-align:center;} 
 	.single .heading-title {border-bottom:none;margin-bottom:0px;}
-	#post-area >article .content-inner {display:none;}
+	.single-volunteer_projects #post-area >article .content-inner {display:none;}
 	#priceBox {padding-top:12px!important;padding-bottom:12px!important;}
 	#priceBox .from {font-size:14px; letter-spacing:2px;padding-right:6px;}
 	#priceBox .pricing {font-size:32px; line-height:30px; padding-right:16px; font-weight:900;}
@@ -22,16 +23,19 @@
 	    margin-bottom: 12px;
 	    }
 	.secondhalfreview {padding-top:75px!important;}
+	.bottom-meta, .sharing-default-minimal, .blog_next_prev_buttons {display: none;}
 	
 /* GForms Styling */
 	body .gform_wrapper ul li.gfield.contact-me {float:left; width:13%; clear:both;}
 	body .gform_wrapper ul li.gfield.dr-year,
 	body .gform_wrapper ul li.gfield.dr-duration,
 	body .gform_wrapper ul li.gfield.dr-currency,
-	body .gform_wrapper ul li.gfield.dr-fees {float:left; clear:right; width:16%;padding-right:24px;}
+	body .gform_wrapper ul li.gfield.dr-fees,
+	body .gform_wrapper ul li.gfield.dr-please-enquire {float:left; clear:right; width:16%;padding-right:24px;}
 	body .gform_wrapper ul li.gfield.enquire-button {float:left; clear:right; width:19%;padding-right:24px;margin-top:5em;}
 	body .gform_wrapper ul li.gfield.enquire-button a {font-weight:900; letter-spacing:1px;}
 	body .gform_wrapper ul li.gfield.dr-fees input {padding:0px!important;border:0px!important;font-size:30px!important;font-weight:900;}
+	body .gform_wrapper ul li.gfield.dr-please-enquire input {padding:10px 0px 0px!important;border:0px!important;font-size:20px!important;font-weight:900;}
 	select.large {background:#fefefe; font-size:20px!important; height:2em;}
 	body .gform_wrapper ul li.gfield.full-name,
 	body .gform_wrapper ul li.gfield.email,
@@ -103,17 +107,17 @@
 		top:22px; 
 		left:45%;
 	} 
-	.instance-30 .owl-controls .owl-dots{
+	.carousel-info-on-right .owl-controls .owl-dots{
 		position: absolute;
 		top:67px;
 		left:52.6%;
 	}
-	.instance-30 .owl-carousel .owl-nav .owl-prev {
+	.carousel-info-on-right .owl-carousel .owl-nav .owl-prev {
 		position: absolute; 
 		top:22px; 
 		left:52%;
 	}
-	.instance-30 .owl-carousel .owl-nav .owl-next {
+	.carousel-info-on-right .owl-carousel .owl-nav .owl-next {
 		position: absolute; 
 		top:22px; 
 		left:55%;
@@ -138,6 +142,7 @@
 
 /* Tablet */
 @media only screen and (min-width : 640px) and (max-width : 1000px) {
+	.single-volunteer_projects .heading-title[data-header-style="default_minimal"] {padding-top:0px;}
 	#specialApply {display:none;}
 	.single .heading-title {border: 0px;margin-bottom: 0px;text-align: center;}
 	#post-area >article .content-inner {display:none;}
@@ -152,6 +157,9 @@
 	.sticky-wrapper .page-submenu {display:block;}
 	.Privileges p {font-size:16px;padding-bottom:0px}
 	
+	.page-submenu .mobile-menu-link {display:none;}
+	.page-submenu.stuck a.mobile-menu-link {display:inline-block;}
+	
 	.instance-20,
 	.instance-21,
 	.instance-22 {margin-bottom: 0px!important;}
@@ -161,19 +169,24 @@
 	.instance-22 p {padding-bottom:0px!important;margin-bottom: 25px!important;}
 	p.noBottomMargin {margin-bottom: 0px!important;}
 	
+	.carousel-info-on-left .padding-11-percent {margin:20px 0px!important;}
+	
 	.instance-25,
 	.instance-27,
 	.instance-29 {margin-top: 20px!important;}
+	.bottom-meta, .sharing-default-minimal, .blog_next_prev_buttons {display: none;}
 	
 /* GForms Styling */
 	body .gform_wrapper ul li.gfield.contact-me {float:left; width:17%; clear:both;}
 	body .gform_wrapper ul li.gfield.dr-year,
 	body .gform_wrapper ul li.gfield.dr-duration,
 	body .gform_wrapper ul li.gfield.dr-currency,
-	body .gform_wrapper ul li.gfield.dr-fees {float:left; clear:right; width:19%;padding-right:24px;}
+	body .gform_wrapper ul li.gfield.dr-fees,
+	body .gform_wrapper ul li.gfield.dr-please-enquire {float:left; clear:right; width:19%;padding-right:24px;}
 	body .gform_wrapper ul li.gfield.enquire-button {float:left; clear:right; width:21%;padding-right:24px;margin-top:3em;}
 	body .gform_wrapper ul li.gfield.enquire-button a {font-weight:900; letter-spacing:0px;}
 	body .gform_wrapper ul li.gfield.dr-fees input {padding:0px!important;border:0px!important;font-size:26px!important;font-weight:900;}
+	body .gform_wrapper ul li.gfield.dr-please-enquire input {padding:10px 0px 0px!important;border:0px!important;font-size:12px!important;font-weight:900;}
 	select.large {background:#fefefe; font-size:17px!important; height:2em;}
 	body .gform_wrapper ul li.gfield.full-name,
 	body .gform_wrapper ul li.gfield.email,
@@ -232,6 +245,7 @@
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 639px) {
+	.single-volunteer_projects .heading-title[data-header-style="default_minimal"] {padding-top:0px;}
 	#priceBox {padding-top:2px!important;padding-bottom:2px!important;}
 	#priceBox .from {font-size:10px; letter-spacing:0px;padding-right:4px;}
 	#priceBox .pricing {font-size:13px; line-height:15px; padding-right:0px;}
@@ -244,7 +258,7 @@
 	body #specialApply {display:none;}
 	body.single-volunteer_projects #specialApply {display:inline-block; position:relative; left:51%; top:5px;font-weight:bold;letter-spacing:1px;}
 	body h4, .row .col h4 {padding: 0px 6%; font-size:16px; line-height:22px;}
-	#hiding {display:none;}
+	#hiding, #hiding2 {display:none;}
 	a#toggle-nav {display:block; width:34px;border:1px solid red;}
 	body[data-slide-out-widget-area="true"] header#top #homelink {width:49%!important;}
 	.vc_custom_1494844196077 {margin-top: 0px!important;}
@@ -252,9 +266,11 @@
 	.Privileges p {font-size:16px;padding-bottom:0px;line-height: 19px;}
 	#dates-rates {padding-top: 32px!important;}
 	
+	.page-submenu .mobile-menu-link {display:none;}
+	.page-submenu.stuck a.mobile-menu-link {display:inline-block;}
+	
 	.instance-6 .divider-wrap .divider {height: 60px!important;}
-	.instance-26 .divider-wrap .divider {height: 0px!important;}
-	.instance-28 .divider-wrap .divider {height: 0px!important;}
+	.carousel-info-on-left .divider-wrap .divider {height: 0px!important;}
 	#fws_5948b9a3851b9 {padding-bottom: 0px!important;}
 	.nectar-split-heading {margin-top: 24px;}
 	.nectar-split-heading h2 {margin-bottom: 0px!important;}
@@ -264,38 +280,41 @@
 	.instance-20 p,
 	.instance-21 p,
 	.instance-22 p,
-	.instance-24 p,
-	.instance-26 p,
-	.instance-28 p,
-	.instance-30 p {font-size: 13px;line-height: 20px;}
+	.carousel-info-on-left p,
+	.carousel-info-on-left p,
+	.carousel-info-on-left p,
+	.carousel-info-on-left p {font-size: 13px;line-height: 20px;}
 	
 	.instance-20,
 	.instance-21,
 	.instance-22 {margin-bottom: 0px!important;}
+	
+	.carousel-info-on-left .padding-11-percent,
+	.carousel-info-on-right .padding-11-percent {margin:20px 0px!important;}
 	
 	.instance-20 p,
 	.instance-21 p,
 	.instance-22 p {padding-bottom:0px!important;margin-bottom: 25px!important;}
 	p.noBottomMargin {margin-bottom: 0px!important;}
 	
-	.instance-25,
-	.instance-27,
-	.instance-29 {margin-top: 20px!important;}
-	.instance-25 .divider-wrap .divider,
-	.instance-27 .divider-wrap .divider,
-	.instance-29 .divider-wrap .divider,
-	.instance-31 .divider-wrap .divider,
-	.instance-33 .divider-wrap .divider {height: 215px!important;}
+	.carousel-info-on-left {margin-top: 20px!important;}
+	.carousel-info-on-left .divider-wrap .divider,
+	.carousel-info-on-right .divider-wrap .divider {height: 215px!important;}
+	.padding-11-percent .divider-wrap .divider {height: 0px!important;margin-bottom: 30px!important;}
+	.carousel-info-on-left.padding-11-percent .divider-wrap .divider {height: 0px!important;margin-bottom: 5px!important;}
+	.bottom-meta, .sharing-default-minimal, .blog_next_prev_buttons {display: none;}
 	
 /* GForms Styling */
 	body .gform_wrapper ul li.gfield.contact-me {float:left; width:100%; clear:both;}
 	body .gform_wrapper ul li.gfield.dr-year,
 	body .gform_wrapper ul li.gfield.dr-duration,
 	body .gform_wrapper ul li.gfield.dr-currency,
-	body .gform_wrapper ul li.gfield.dr-fees {float:left; clear:right; width:36%;padding-right:24px;}
+	body .gform_wrapper ul li.gfield.dr-fees,
+	body .gform_wrapper ul li.gfield.dr-please-enquire {float:left; clear:right; width:36%;padding-right:24px;}
 	body .gform_wrapper ul li.gfield.enquire-button {float:left; clear:right; width:21%;padding-right:24px;margin-top:3em;}
 	body .gform_wrapper ul li.gfield.enquire-button a {font-weight:900; letter-spacing:0px; line-height: 14px!important;}
 	body .gform_wrapper ul li.gfield.dr-fees input {padding:0px!important;border:0px!important;font-size:26px!important;line-height:1;font-weight:900;}
+	body .gform_wrapper ul li.gfield.dr-please-enquire input {padding:0px!important;border:0px!important;font-size:10px!important;line-height:1;font-weight:900;}
 	select.large {background:#fefefe; font-size:14px!important; height:1.8em;}
 	body .gform_wrapper ul li.gfield.full-name,
 	body .gform_wrapper ul li.gfield.email,
@@ -355,8 +374,8 @@
 	.instance-24 .divider-wrap {display: none;}
 
 /* Owl Carousel */
-	.owl-theme .owl-nav [class*='owl-'] {
-	    display: inline-block !important;
+	.owl-theme .owl-nav, .owl-controls .owl-dots [class*='owl-'] {
+	    display: none !important;
 	}
 	.owl-theme .owl-nav [class*='owl-']:hover {background: #008ae6;}
 	.owl-controls .owl-dots{
