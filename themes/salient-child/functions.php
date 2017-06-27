@@ -14,6 +14,7 @@ function volunteer_projects_init() {
     $args = array(
       'label' => 'Volunteer Projects',
         'public' => true,
+        'has_archive' => true,
         'show_ui' => true,
         'capability_type' => 'post',
         'hierarchical' => true,
