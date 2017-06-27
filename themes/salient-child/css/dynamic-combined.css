@@ -1,4 +1,4 @@
-body a { color: #008ae6; }
+body a { color: #da5838; }
 	
 	#header-outer:not([data-lhe="animated_underline"]) header#top nav > ul > li > a:hover, #header-outer:not([data-lhe="animated_underline"]) header#top nav .sf-menu > li.sfHover > a, header#top nav > ul > li.button_bordered > a:hover, #header-outer:not([data-lhe="animated_underline"]) header#top nav .sf-menu li.current-menu-item > a,
 	header#top nav .sf-menu li.current_page_item > a .sf-sub-indicator i, header#top nav .sf-menu li.current_page_ancestor > a .sf-sub-indicator i,
@@ -25,12 +25,12 @@ body a { color: #008ae6; }
 	body[data-form-submit="see-through"] input[type=submit], body[data-form-submit="see-through"] button[type=submit], #header-outer[data-format="left-header"] .sf-menu .sub-menu .current-menu-item > a, .nectar_icon_wrap[data-color="accent-color"] i, .nectar_team_member_close .inner:before, body[data-dropdown-style="minimal"]:not([data-header-format="left-header"]) header#top nav > ul > li.megamenu > ul > li > ul > li.has-ul > a:hover, body:not([data-header-format="left-header"]) header#top nav > ul > li.megamenu > ul > li > ul > li.has-ul > a:hover,
 	body[data-dropdown-style="minimal"] #header-outer:not([data-format="left-header"]) header#top nav > ul > li.megamenu ul ul li.current-menu-item.has-ul > a, body[data-dropdown-style="minimal"] #header-outer:not([data-format="left-header"]) header#top nav > ul > li.megamenu ul ul li.current-menu-ancestor.has-ul > a, body .wpb_row .span_12 .portfolio-filters-inline[data-color-scheme="accent-color-underline"].full-width-section a.active, body .wpb_row .span_12 .portfolio-filters-inline[data-color-scheme="accent-color-underline"].full-width-section a:hover
 	{	
-		color:#008ae6!important;
+		color:#da5838!important;
 	}
 	
 	.col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.accent-color.alt-style.hovered, body .col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x.accent-color.alt-style.hovered,
 	.ascend #header-outer:not(.transparent) .cart-outer:hover .cart-menu-wrap:not(.has_products) .icon-salient-cart {
-		color:#008ae6!important;
+		color:#da5838!important;
 	}
 	
 	
@@ -63,43 +63,43 @@ body a { color: #008ae6; }
      .nectar_icon_wrap[data-style="border-animation"][data-color="accent-color"]:not([data-draw="true"]) .nectar_icon:hover, body[data-dropdown-style="minimal"] #header-outer:not([data-format="left-header"]) header#top nav > ul > li:not(.megamenu) ul li.current-menu-item > a, body[data-dropdown-style="minimal"] #header-outer:not([data-format="left-header"]) header#top nav > ul > li:not(.megamenu) ul li.current-menu-ancestor > a, .nectar-social-sharing-fixed > a:before, .nectar-social-sharing-fixed .nectar-social a, 
      .tabbed[data-style="minimal_alt"] .magic-line, .nectar-google-map[data-nectar-marker-color="accent-color"] .animated-dot .middle-dot, .nectar-google-map[data-nectar-marker-color="accent-color"] .animated-dot div[class*="signal"], .nectar_video_lightbox.play_button_with_text[data-color="default-accent-color"] span.play > .inner-wrap:before, .nectar-hor-list-item[data-color="accent-color"]:before 
 	{
-		background-color:#008ae6!important;
+		background-color:#da5838!important;
 	}
 	
 	.col:hover > [class^="icon-"].icon-3x:not(.alt-style).accent-color.hovered, .col:hover > [class*=" icon-"].icon-3x:not(.alt-style).accent-color.hovered, body .nectar-button.see-through-2[data-hover-color-override="false"]:hover,
 	.col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x:not(.alt-style).accent-color.hovered, .col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x:not(.alt-style).accent-color.hovered {
-		background-color:#008ae6!important;
+		background-color:#da5838!important;
 	}
 	
 
-	.bottom_controls #portfolio-nav ul:first-child  li#all-items a:hover i { box-shadow: -.6em 0 #008ae6, -.6em .6em #008ae6, .6em 0 #008ae6, .6em -.6em #008ae6, 0 -.6em #008ae6, -.6em -.6em #008ae6, 0 .6em #008ae6, .6em .6em #008ae6;  }
+	.bottom_controls #portfolio-nav ul:first-child  li#all-items a:hover i { box-shadow: -.6em 0 #da5838, -.6em .6em #da5838, .6em 0 #da5838, .6em -.6em #da5838, 0 -.6em #da5838, -.6em -.6em #da5838, 0 .6em #da5838, .6em .6em #da5838;  }
 	
 	.tabbed > ul li a.active-tab, body[data-form-style="minimal"] label:after, body .recent_projects_widget a:hover img, .recent_projects_widget a:hover img, #sidebar #flickr a:hover img, body .nectar-button.see-through-2[data-hover-color-override="false"]:hover,
 	#footer-outer #flickr a:hover img, body[data-button-style="rounded"] .wpb_wrapper .twitter-share:before, body[data-button-style="rounded"] .wpb_wrapper .twitter-share.hovered:before, body[data-button-style="rounded"] .wpb_wrapper .facebook-share:before, body[data-button-style="rounded"] .wpb_wrapper .facebook-share.hovered:before, body[data-button-style="rounded"] .wpb_wrapper .google-plus-share:before, body[data-button-style="rounded"] .wpb_wrapper .google-plus-share.hovered:before, body[data-button-style="rounded"] .wpb_wrapper .nectar-social:hover > *:before, body[data-button-style="rounded"] .wpb_wrapper .pinterest-share:before, body[data-button-style="rounded"] .wpb_wrapper .pinterest-share.hovered:before, body[data-button-style="rounded"] .wpb_wrapper .linkedin-share:before, body[data-button-style="rounded"] .wpb_wrapper .linkedin-share.hovered:before,  #featured article .post-title a:hover, #header-outer[data-lhe="animated_underline"] header#top nav > ul > li > a:after, body #featured article .post-title a:hover, div.wpcf7-validation-errors, body[data-fancy-form-rcs="1"] [type="radio"]:checked + label:before, body[data-fancy-form-rcs="1"] [type="radio"]:checked + label:after, body[data-fancy-form-rcs="1"] input[type="checkbox"]:checked + label > span, .select2-container .select2-choice:hover, .select2-dropdown-open .select2-choice,
 	#header-outer:not(.transparent) header#top nav > ul > li.button_bordered > a:hover:before, .single #single-meta ul li:not(.meta-share-count):hover a, .single #project-meta ul li:not(.meta-share-count):hover a, div[data-style="minimal"] .toggle.default.open i, div[data-style="minimal"] .toggle.default:hover i, div[data-style="minimal"] .toggle.accent-color.open i, div[data-style="minimal"] .toggle.accent-color:hover i,
 	.nectar_image_with_hotspots .nectar_hotspot_wrap .nttip .tipclose, body[data-button-style="rounded"] #pagination > a:hover, body[data-form-submit="see-through"] input[type=submit], body[data-form-submit="see-through"] button[type=submit], .nectar_icon_wrap[data-style="border-basic"][data-color="accent-color"] .nectar_icon, .nectar_icon_wrap[data-style="border-animation"][data-color="accent-color"]:not([data-draw="true"]) .nectar_icon,
 	.nectar_icon_wrap[data-style="border-animation"][data-color="accent-color"][data-draw="true"]:hover .nectar_icon, .span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="default-accent-color"] span.play:before, .span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="default-accent-color"] span.play:after {
-		border-color:#008ae6!important;
+		border-color:#da5838!important;
 	}
 
-	#fp-nav:not(.light-controls).tooltip_alt ul li a.active span, #fp-nav.tooltip_alt ul li a.active span { box-shadow: inset 0 0 0 2px #008ae6; -webkit-box-shadow: inset 0 0 0 2px #008ae6; }
+	#fp-nav:not(.light-controls).tooltip_alt ul li a.active span, #fp-nav.tooltip_alt ul li a.active span { box-shadow: inset 0 0 0 2px #da5838; -webkit-box-shadow: inset 0 0 0 2px #da5838; }
 
-	.default-loading-icon:before { border-top-color:#008ae6!important; }
+	.default-loading-icon:before { border-top-color:#da5838!important; }
 
-	#header-outer a.cart-contents span:before, #fp-nav.tooltip ul li .fp-tooltip .tooltip-inner:after { border-color: transparent #008ae6!important; }
+	#header-outer a.cart-contents span:before, #fp-nav.tooltip ul li .fp-tooltip .tooltip-inner:after { border-color: transparent #da5838!important; }
 	
 	body .col:not(#post-area):not(.span_12):not(#sidebar):hover .hovered .circle-border, body #sidebar .widget:hover .circle-border, body .testimonial_slider[data-style="multiple_visible"][data-color*="accent-color"] blockquote .bottom-arrow:after, body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accent-color"] blockquote .bottom-arrow:after, .portfolio-items[data-ps="6"] .bg-overlay, .portfolio-items[data-ps="6"].no-masonry .bg-overlay,
-	.nectar_team_member_close .inner { border-color:#008ae6; }
+	.nectar_team_member_close .inner { border-color:#da5838; }
 
-	.gallery a:hover img { border-color:#008ae6!important; }@media only screen 
+	.gallery a:hover img { border-color:#da5838!important; }@media only screen 
 		and (min-width : 1px) and (max-width : 1000px) {
 			
-			body #featured article .post-title > a { background-color:#008ae6; }
+			body #featured article .post-title > a { background-color:#da5838; }
 			
-			body #featured article .post-title > a { border-color:#008ae6; }
+			body #featured article .post-title > a { border-color:#da5838; }
 		}
 		
-		.nectar-button.regular-button.extra-color-1, .nectar-button.tilt.extra-color-1 { background-color: #f06220!important; }
+		.nectar-button.regular-button.extra-color-1, .nectar-button.tilt.extra-color-1 { background-color: #dd7b3c!important; }
 		
 		.icon-3x[class^="icon-"].extra-color-1:not(.alt-style), .icon-tiny[class^="icon-"].extra-color-1, .icon-3x[class*=" icon-"].extra-color-1:not(.alt-style) , body .icon-3x[class*=" icon-"].extra-color-1:not(.alt-style)  .circle-border, .woocommerce-page table.cart a.remove, #header-outer .widget_shopping_cart .cart_list li a.remove,  #header-outer .woocommerce.widget_shopping_cart .cart_list li a.remove, .nectar-milestone .number.extra-color-1, span.extra-color-1,
 		.team-member ul.social.extra-color-1 li a, .stock.out-of-stock, body [class^="icon-"].icon-default-style.extra-color-1, body [class^="icon-"].icon-default-style[data-color="extra-color-1"], .team-member a.extra-color-1:hover, 
@@ -107,7 +107,7 @@ body a { color: #008ae6; }
 		.svg-icon-holder[data-color="extra-color-1"], div[data-style="minimal"] .toggle.extra-color-1:hover h3 a, div[data-style="minimal"] .toggle.extra-color-1.open h3 a, .nectar-icon-list[data-icon-style="border"][data-icon-color="extra-color-1"] .list-icon-holder[data-icon_type="numerical"] span, .nectar-icon-list[data-icon-color="extra-color-1"][data-icon-style="border"] .content h4,
 		 .nectar_icon_wrap[data-color="extra-color-1"] i, body .wpb_row .span_12 .portfolio-filters-inline[data-color-scheme="extra-color-1-underline"].full-width-section a.active, body .wpb_row .span_12 .portfolio-filters-inline[data-color-scheme="extra-color-1-underline"].full-width-section a:hover, .testimonial_slider[data-rating-color="extra-color-1"] .star-rating .filled:before,
 		 header#top nav > ul > li.button_bordered_2 > a:hover {
-			color: #f06220!important;
+			color: #dd7b3c!important;
 		}
 		
 		.col:hover > [class^="icon-"].icon-3x.extra-color-1:not(.alt-style), .col:hover > [class*=" icon-"].icon-3x.extra-color-1:not(.alt-style).hovered, body .swiper-slide .button.transparent_2 a.extra-color-1:hover,
@@ -117,16 +117,16 @@ body a { color: #008ae6; }
 		.nectar-animated-title[data-color="extra-color-1"] .nectar-animated-title-inner:after, .nectar-video-box[data-color="extra-color-1"] a.nectar_video_lightbox,  body .nectar-video-box[data-color="extra-color-1"][data-hover="zoom_button"] a.nectar_video_lightbox:after, .nectar_image_with_hotspots[data-stlye="color_pulse"][data-color="extra-color-1"] .nectar_hotspot, .portfolio-filters-inline[data-color-scheme="extra-color-1-underline"] a:after, .nectar_icon_wrap[data-style="border-animation"][data-color="extra-color-1"]:not([data-draw="true"]) .nectar_icon:hover,  .nectar-google-map[data-nectar-marker-color="extra-color-1"] .animated-dot .middle-dot, .nectar-google-map[data-nectar-marker-color="extra-color-1"] .animated-dot div[class*="signal"], .nectar_video_lightbox.play_button_with_text[data-color="extra-color-1"] span.play > .inner-wrap:before,
 		.nectar-hor-list-item[data-color="extra-color-1"]:before, header#top nav > ul > li.button_solid_color_2 > a:before, #header-outer.transparent header#top nav > ul > li.button_solid_color_2 > a:before
 		{
-			background-color: #f06220!important;
+			background-color: #dd7b3c!important;
 		}
 		
 		body [class^="icon-"].icon-3x.alt-style.extra-color-1, body [class*=" icon-"].icon-3x.alt-style.extra-color-1, [class*=" icon-"].extra-color-1.icon-normal, .extra-color-1.icon-normal, .bar_graph li span.extra-color-1, .nectar-progress-bar span.extra-color-1, #header-outer .widget_shopping_cart a.button, .woocommerce ul.products li.product .onsale, .woocommerce-page ul.products li.product .onsale, .woocommerce span.onsale, .woocommerce-page span.onsale, .woocommerce-page table.cart a.remove:hover, .swiper-slide .button.solid_color a.extra-color-1, .swiper-slide .button.solid_color_2 a.extra-color-1, .toggle.open.extra-color-1 h3 a {
-			background-color: #f06220!important;
+			background-color: #dd7b3c!important;
 		}
 		
 		.col:hover > [class^="icon-"].icon-3x.extra-color-1.alt-style.hovered, .col:hover > [class*=" icon-"].icon-3x.extra-color-1.alt-style.hovered, .no-highlight.extra-color-1 h3,
 		.col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.extra-color-1.alt-style.hovered, body .col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x.extra-color-1.alt-style.hovered {
-			color: #f06220!important;
+			color: #dd7b3c!important;
 		}
 		
 		body .col:not(#post-area):not(.span_12):not(#sidebar):hover .extra-color-1.hovered .circle-border, .woocommerce-page table.cart a.remove, #header-outer .woocommerce.widget_shopping_cart .cart_list li a.remove, #header-outer .woocommerce.widget_shopping_cart .cart_list li a.remove, body #sidebar .widget:hover .extra-color-1 .circle-border, .woocommerce-page table.cart a.remove,
@@ -134,19 +134,19 @@ body a { color: #008ae6; }
 		body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="extra-color-1"] blockquote .bottom-arrow:after, div[data-style="minimal"] .toggle.open.extra-color-1 i, div[data-style="minimal"] .toggle.extra-color-1:hover i,
 		.nectar_icon_wrap[data-style="border-basic"][data-color="extra-color-1"] .nectar_icon, .nectar_icon_wrap[data-style="border-animation"][data-color="extra-color-1"]:not([data-draw="true"]) .nectar_icon, .nectar_icon_wrap[data-style="border-animation"][data-color="extra-color-1"][data-draw="true"]:hover .nectar_icon,
 		.span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="extra-color-1"] span.play:before, .span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="extra-color-1"] span.play:after,
-		#header-outer:not(.transparent) header#top nav > ul > li.button_bordered_2 > a:hover:before { border-color:#f06220; }
+		#header-outer:not(.transparent) header#top nav > ul > li.button_bordered_2 > a:hover:before { border-color:#dd7b3c; }
 		
-		.pricing-column.highlight.extra-color-1 h3 { background-color:#f06220!important; }
+		.pricing-column.highlight.extra-color-1 h3 { background-color:#dd7b3c!important; }
 		
 		
 		
-		.nectar-button.regular-button.extra-color-2, .nectar-button.tilt.extra-color-2 { background-color: #97cad4!important; }
+		.nectar-button.regular-button.extra-color-2, .nectar-button.tilt.extra-color-2 { background-color: #4e98a5!important; }
 			
 		.icon-3x[class^="icon-"].extra-color-2:not(.alt-style), .icon-3x[class*=" icon-"].extra-color-2:not(.alt-style), .icon-tiny[class^="icon-"].extra-color-2, body .icon-3x[class*=" icon-"].extra-color-2  .circle-border, .nectar-milestone .number.extra-color-2, span.extra-color-2, .team-member ul.social.extra-color-2 li a, body [class^="icon-"].icon-default-style.extra-color-2, body [class^="icon-"].icon-default-style[data-color="extra-color-2"], .team-member a.extra-color-2:hover,
 		.pricing-table[data-style="flat-alternative"] .pricing-column.highlight.extra-color-2 h3, .pricing-table[data-style="flat-alternative"] .pricing-column.extra-color-2 h4, .pricing-table[data-style="flat-alternative"] .pricing-column.extra-color-2 .interval,
 		.svg-icon-holder[data-color="extra-color-2"], div[data-style="minimal"] .toggle.extra-color-2:hover h3 a, div[data-style="minimal"] .toggle.extra-color-2.open h3 a, .nectar-icon-list[data-icon-style="border"][data-icon-color="extra-color-2"] .list-icon-holder[data-icon_type="numerical"] span, .nectar-icon-list[data-icon-color="extra-color-2"][data-icon-style="border"] .content h4,
 		.nectar_icon_wrap[data-color="extra-color-2"] i, body .wpb_row .span_12 .portfolio-filters-inline[data-color-scheme="extra-color-2-underline"].full-width-section a.active, body .wpb_row .span_12 .portfolio-filters-inline[data-color-scheme="extra-color-2-underline"].full-width-section a:hover, .testimonial_slider[data-rating-color="extra-color-2"] .star-rating .filled:before {
-			color: #97cad4!important;
+			color: #4e98a5!important;
 		}
 	
 		.col:hover > [class^="icon-"].icon-3x.extra-color-2:not(.alt-style).hovered, .col:hover > [class*=" icon-"].icon-3x.extra-color-2:not(.alt-style).hovered, body .swiper-slide .button.transparent_2 a.extra-color-2:hover, 
@@ -155,37 +155,37 @@ body a { color: #008ae6; }
 		.nectar-animated-title[data-color="extra-color-2"] .nectar-animated-title-inner:after, .nectar-video-box[data-color="extra-color-2"] a.nectar_video_lightbox, body .nectar-video-box[data-color="extra-color-2"][data-hover="zoom_button"] a.nectar_video_lightbox:after, .nectar_image_with_hotspots[data-stlye="color_pulse"][data-color="extra-color-2"] .nectar_hotspot, .portfolio-filters-inline[data-color-scheme="extra-color-2-underline"] a:after, .nectar_icon_wrap[data-style="border-animation"][data-color="extra-color-2"]:not([data-draw="true"]) .nectar_icon:hover, .nectar-google-map[data-nectar-marker-color="extra-color-2"] .animated-dot .middle-dot, .nectar-google-map[data-nectar-marker-color="extra-color-2"] .animated-dot div[class*="signal"], .nectar_video_lightbox.play_button_with_text[data-color="extra-color-2"] span.play > .inner-wrap:before,
 		.nectar-hor-list-item[data-color="extra-color-2"]:before
 		{
-			background-color: #97cad4!important;
+			background-color: #4e98a5!important;
 		}
 	
 	
 		body [class^="icon-"].icon-3x.alt-style.extra-color-2, body [class*=" icon-"].icon-3x.alt-style.extra-color-2, [class*=" icon-"].extra-color-2.icon-normal, .extra-color-2.icon-normal, .bar_graph li span.extra-color-2, .nectar-progress-bar span.extra-color-2, .woocommerce .product-wrap .add_to_cart_button.added, .woocommerce-message, .woocommerce-error, .woocommerce-info, 
 		.woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range, .swiper-slide .button.solid_color a.extra-color-2, .swiper-slide .button.solid_color_2 a.extra-color-2, .toggle.open.extra-color-2 h3 a,
 		.portfolio-filters-inline[data-color-scheme="extra-color-2"], .pricing-table[data-style="flat-alternative"] .pricing-column.extra-color-2:before {
-			background-color: #97cad4!important;
+			background-color: #4e98a5!important;
 		}
 	
 		.col:hover > [class^="icon-"].icon-3x.extra-color-2.alt-style.hovered, .col:hover > [class*=" icon-"].icon-3x.extra-color-2.alt-style.hovered, .no-highlight.extra-color-2 h3, 
 		.col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.extra-color-2.alt-style.hovered, body .col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x.extra-color-2.alt-style.hovered {
-			color: #97cad4!important;
+			color: #4e98a5!important;
 		}
 		
 		body .col:not(#post-area):not(.span_12):not(#sidebar):hover .extra-color-2.hovered .circle-border, body #sidebar .widget:hover .extra-color-2 .circle-border,
 		body .testimonial_slider[data-style="multiple_visible"][data-color*="extra-color-2"] blockquote .bottom-arrow:after,
 		body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="extra-color-2"] blockquote .bottom-arrow:after, div[data-style="minimal"] .toggle.open.extra-color-2 i, div[data-style="minimal"] .toggle.extra-color-2:hover i,
 		.nectar_icon_wrap[data-style="border-basic"][data-color="extra-color-2"] .nectar_icon, .nectar_icon_wrap[data-style="border-animation"][data-color="extra-color-2"]:not([data-draw="true"]) .nectar_icon, .nectar_icon_wrap[data-style="border-animation"][data-color="extra-color-2"][data-draw="true"]:hover .nectar_icon,
-		.span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="extra-color-2"] span.play:before, .span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="extra-color-2"] span.play:after { border-color:#97cad4; }
+		.span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="extra-color-2"] span.play:before, .span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="extra-color-2"] span.play:after { border-color:#4e98a5; }
 		
-		.pricing-column.highlight.extra-color-2 h3 { background-color:#97cad4!important; }
+		.pricing-column.highlight.extra-color-2 h3 { background-color:#4e98a5!important; }
 		
 		
-		.nectar-button.regular-button.extra-color-3, .nectar-button.tilt.extra-color-3 { background-color: #ffffff!important; }
+		.nectar-button.regular-button.extra-color-3, .nectar-button.tilt.extra-color-3 { background-color: #7d8f57!important; }
 			
 	    .icon-3x[class^="icon-"].extra-color-3:not(.alt-style) , .icon-3x[class*=" icon-"].extra-color-3:not(.alt-style) , .icon-tiny[class^="icon-"].extra-color-3, body .icon-3x[class*=" icon-"].extra-color-3  .circle-border, .nectar-milestone .number.extra-color-3, span.extra-color-3, .team-member ul.social.extra-color-3 li a, body [class^="icon-"].icon-default-style.extra-color-3, body [class^="icon-"].icon-default-style[data-color="extra-color-3"], .team-member a.extra-color-3:hover,
 	    .pricing-table[data-style="flat-alternative"] .pricing-column.highlight.extra-color-3 h3, .pricing-table[data-style="flat-alternative"] .pricing-column.extra-color-3 h4, .pricing-table[data-style="flat-alternative"] .pricing-column.extra-color-3 .interval,
 	    .svg-icon-holder[data-color="extra-color-3"], div[data-style="minimal"] .toggle.extra-color-3:hover h3 a, div[data-style="minimal"] .toggle.extra-color-3.open h3 a, .nectar-icon-list[data-icon-style="border"][data-icon-color="extra-color-3"] .list-icon-holder[data-icon_type="numerical"] span, .nectar-icon-list[data-icon-color="extra-color-3"][data-icon-style="border"] .content h4,
 	    .nectar_icon_wrap[data-color="extra-color-3"] i, body .wpb_row .span_12 .portfolio-filters-inline[data-color-scheme="extra-color-3-underline"].full-width-section a.active, body .wpb_row .span_12 .portfolio-filters-inline[data-color-scheme="extra-color-3-underline"].full-width-section a:hover, .testimonial_slider[data-rating-color="extra-color-3"] .star-rating .filled:before {
-			color: #ffffff!important;
+			color: #7d8f57!important;
 		}
 	    .col:hover > [class^="icon-"].icon-3x.extra-color-3:not(.alt-style).hovered, .col:hover > [class*=" icon-"].icon-3x.extra-color-3:not(.alt-style).hovered, body .swiper-slide .button.transparent_2 a.extra-color-3:hover,
 		.col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.extra-color-3:not(.alt-style).hovered, .col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x.extra-color-3:not(.alt-style).hovered, #sidebar .widget:hover [class^="icon-"].icon-3x.extra-color-3:not(.alt-style),
@@ -194,25 +194,25 @@ body a { color: #008ae6; }
 		.nectar-animated-title[data-color="extra-color-3"] .nectar-animated-title-inner:after , .nectar-video-box[data-color="extra-color-3"] a.nectar_video_lightbox, body .nectar-video-box[data-color="extra-color-3"][data-hover="zoom_button"] a.nectar_video_lightbox:after, .nectar_image_with_hotspots[data-stlye="color_pulse"][data-color="extra-color-3"] .nectar_hotspot, .portfolio-filters-inline[data-color-scheme="extra-color-3-underline"] a:after, .nectar_icon_wrap[data-style="border-animation"][data-color="extra-color-3"]:not([data-draw="true"]) .nectar_icon:hover, .nectar-google-map[data-nectar-marker-color="extra-color-3"] .animated-dot .middle-dot, .nectar-google-map[data-nectar-marker-color="extra-color-3"] .animated-dot div[class*="signal"], .nectar_video_lightbox.play_button_with_text[data-color="extra-color-3"] span.play > .inner-wrap:before,
 		.nectar-hor-list-item[data-color="extra-color-3"]:before
 		{
-			background-color: #ffffff!important;
+			background-color: #7d8f57!important;
 		}
 		
 		body [class^="icon-"].icon-3x.alt-style.extra-color-3, body [class*=" icon-"].icon-3x.alt-style.extra-color-3, .extra-color-3.icon-normal, [class*=" icon-"].extra-color-3.icon-normal, .bar_graph li span.extra-color-3, .nectar-progress-bar span.extra-color-3, .swiper-slide .button.solid_color a.extra-color-3, .swiper-slide .button.solid_color_2 a.extra-color-3, .toggle.open.extra-color-3 h3 a  {
-			background-color: #ffffff!important;
+			background-color: #7d8f57!important;
 		}
 	
 		.col:hover > [class^="icon-"].icon-3x.extra-color-3.alt-style.hovered, .col:hover > [class*=" icon-"].icon-3x.extra-color-3.alt-style.hovered, .no-highlight.extra-color-3 h3,
 		.col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.extra-color-3.alt-style.hovered, body .col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x.extra-color-3.alt-style.hovered {
-			color: #ffffff!important;
+			color: #7d8f57!important;
 		}
 		
 		body .col:not(#post-area):not(.span_12):not(#sidebar):hover .extra-color-3.hovered .circle-border, body #sidebar .widget:hover .extra-color-3 .circle-border,
 		body .testimonial_slider[data-style="multiple_visible"][data-color*="extra-color-3"] blockquote .bottom-arrow:after,
 		body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="extra-color-3"] blockquote .bottom-arrow:after, div[data-style="minimal"] .toggle.open.extra-color-3 i, div[data-style="minimal"] .toggle.extra-color-3:hover i,
 		.nectar_icon_wrap[data-style="border-basic"][data-color="extra-color-3"] .nectar_icon, .nectar_icon_wrap[data-style="border-animation"][data-color="extra-color-3"]:not([data-draw="true"]) .nectar_icon, .nectar_icon_wrap[data-style="border-animation"][data-color="extra-color-3"][data-draw="true"]:hover .nectar_icon,
-		.span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="extra-color-3"] span.play:before, .span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="extra-color-3"] span.play:after { border-color:#ffffff; }
+		.span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="extra-color-3"] span.play:before, .span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="extra-color-3"] span.play:after { border-color:#7d8f57; }
 		
-		.pricing-column.highlight.extra-color-3 h3 { background-color:#ffffff!important; }
+		.pricing-column.highlight.extra-color-3 h3 { background-color:#7d8f57!important; }
 		.divider-small-border[data-color="extra-color-gradient-1"], .divider-border[data-color="extra-color-gradient-1"], .nectar-progress-bar span.extra-color-gradient-1 {
 			background: #65c7d8; 
 		    background: linear-gradient(to right, #65c7d8, #f06220); 
