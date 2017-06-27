@@ -1,5 +1,5 @@
 <?php 
-/*template name: Volunteer Project Template  */
+/*template name: Volunteer Project Template Copy  */
 ?>
 <?php get_header(); ?>
 
