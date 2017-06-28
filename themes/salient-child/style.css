@@ -12,4 +12,10 @@ Version: 0.1
 .single-volunteer_projects .meta-author,
 .single-volunteer_projects .meta-category,
 .single-volunteer_projects .meta-comment-count,
-.single-volunteer_projects .post-meta {display: none;}
+.single-volunteer_projects .post-meta,
+.single-volunteer_projects span.post-featured-img {display: none!important;}
+
+#sidebar .searchandfilter[data-sf-form-id="61"]
+{
+    //do stuff with this particular search form
+}
