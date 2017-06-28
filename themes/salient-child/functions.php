@@ -9,6 +9,14 @@ function salient_child_enqueue_styles() {
    		wp_enqueue_style(  'salient-rtl',  get_template_directory_uri(). '/rtl.css', array(), '1', 'screen' );
 }
 
+// Custom FUNctions
+add_image_size( 'search-results-thumb', 545, 316, true );
+function custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 250 );
+// Close the FUNctions
+
 // Create Volunteer Projects Custom Post Type
 function volunteer_projects_init() {
     $args = array(
