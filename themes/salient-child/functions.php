@@ -11,10 +11,10 @@ function salient_child_enqueue_styles() {
 
 // Custom FUNctions
 add_image_size( 'search-results-thumb', 545, 316, true );
-function custom_excerpt_length( $length ) {
-	return 20;
+function ld_custom_excerpt_length( $length ) {
+    return 30;
 }
-add_filter( 'excerpt_length', 'custom_excerpt_length', 250 );
+add_filter( 'excerpt_length', 'ld_custom_excerpt_length', 999 );
 // Close the FUNctions
 
 // Create Volunteer Projects Custom Post Type
