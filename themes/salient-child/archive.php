@@ -67,15 +67,18 @@ jQuery(document).ready(function($){
 						
 					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 						
-								<article id="gerard" class="result">
+							<article id="gerard" class="result">
+								<div id="title-and-excerpt">	
 									<h2 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-									<p class="excerpt"><?php the_excerpt(); ?></p>
-									<a class="read-more-button" href="<?php the_permalink(); ?>">more information</a>
-									<div class="inner-wrap">
-										<?php if(has_post_thumbnail( $post->ID )) {	echo '<a href="'.get_permalink().'">'.get_the_post_thumbnail($post->ID, 'search-results-thumb', array('title' => '')).'</a>'; } ?>
+									<p class="excerpt"><?php echo get_the_excerpt(); ?></p>
+									<a id="result-button" class="nectar-button small has-icon regular-button" style="visibility: visible;" href="<?php the_permalink(); ?>" data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>more information</span><i class="iconsmind-Triangle-ArrowRight"></i></a>
+								</div>
+								<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'search-results-thumb' );?>
+
+								<div class="inner-wrap" style="background: url('<?php echo $thumb['0'];?>')">
 										<div class="priceBar"><span class="from">FROM</span> <?php $key="pricing"; echo get_post_meta($post->ID, $key, true); ?></div>
-									</div>
-								</article><!--/search-result-->	
+								</div>
+							</article><!--/search-result-->	
 							
 						
 						
