@@ -42,8 +42,8 @@ Version: 0.1
 	width:273px;
 	padding: 30px 30px 0px;
 }
-.priceBar {background: rgba(45, 45, 45, 0.5); color:#fff; font-size: 18px; font-weight: 900; padding: 4px 16px; margin-top:281px;}
-.priceBar span.from {font-weight: 400; font-size: 16px;}
+.priceBar {background: rgba(45, 45, 45, 0.5); color:#fff; font-size: 15px; font-weight: 900; padding: 4px 16px; margin-top:281px;}
+.priceBar span.from {font-weight: 400; font-size: 12px;}
 a#result-button {font-size: 12px!important; font-weight: 900; letter-spacing: 1px;}
 a#result-button span {color:#eee;}
 a#result-button:hover span{color:#fff;}
