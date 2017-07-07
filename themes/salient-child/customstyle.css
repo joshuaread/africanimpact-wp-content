@@ -1,6 +1,8 @@
 /* Laptop */
 @media only screen and (min-width: 1000px){
 	
+	body.archive header#top nav > ul li.slide-out-widget-area-toggle {display: none;}
+	
 	.main-content ul {margin-top: 0px; margin-left: 18px!important; margin-bottom: 0px!important;}
 	#sidebar select {
 		background-color: transparent!important;
@@ -334,6 +336,38 @@
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 639px) {
+	
+	#sidebar {display: none;}
+	#slide-out-widget-area {background-color: #333!important;}
+	
+	
+	#search_filter_register_widget-2 .searchandfilter ul li h4 {padding: 0px!important; margin: 0px!important;}
+	li.sf-field-taxonomy-project_type select option {background: #da5838!important;}
+	li.sf-field-taxonomy-impact_type select option {background: #4E98A5!important;}
+	li.sf-field-taxonomy-destination select option {background: #7D8F57!important;}
+	#sidebar select option.sf-option-active {background: #ffc!important;color:#222!important;}
+	
+	#slide-out-widget-area ul#ProjectType {margin-left:0px!important;}
+	#slide-out-widget-area ul#ProjectType li {list-style: none!important;}
+	#slide-out-widget-area ul#ProjectType li a {background:#DD7B3C!important;border: 1px solid rgba(51, 51, 51, 0.5)!important;padding: 11px 10px!important;font-weight: 900;line-height: 17px!important;width:50%;float: left;}
+	#slide-out-widget-area ul#ProjectType li.fullpercent a {width: 100%; text-align: center;line-height: 32px!important;}
+	#slide-out-widget-area #ProjectType a {color: #fff; text-align: center;}
+	#slide-out-widget-area #ProjectType a:hover {background:#A15D2F!important; color: #ffc; }
+
+	#slide-out-widget-area h4	{margin-bottom: 7px!important;}
+	#slide-out-widget-area h4.marginTop24 {margin-top: 24px!important;}
+	
+	#slide-out-widget-area ul#ImpactType {margin-left:0px!important;}
+	#slide-out-widget-area ul#ImpactType li {list-style: none!important;}
+	#slide-out-widget-area ul#ImpactType li a {background:#4E98A5!important;border: 1px solid rgba(51, 51, 51, 0.5)!important;padding: 6px 7px!important;font-weight: 900;line-height: 14px!important;width:33%;float: left;font-size: 11px!important;display: block;overflow: hidden;height: 42px;}
+	#slide-out-widget-area #ImpactType a {color: #fff; text-align: center;}
+	#slide-out-widget-area #ImpactType a:hover {background:#467d87!important; color: #ffc; }
+	
+	#slide-out-widget-area ul#Destinationss {margin-left:0px!important;}
+	#slide-out-widget-area ul#Destinationss li {list-style: none!important;}
+	#slide-out-widget-area ul#Destinationss li a {background:#7D8F57!important;border: 1px solid rgba(51, 51, 51, 0.5)!important;padding: 6px 7px!important;font-weight: 900;line-height: 14px!important;width:33%;float: left;font-size: .7em!important;display: block;overflow: hidden;height: 29px;}
+	#slide-out-widget-area #Destinationss a {color: #fff; text-align: center;}
+	#slide-out-widget-area #Destinationss a:hover {background:#6a784c!important; color: #ffc; }
 	
 	#search-results .result .inner-wrap {width: 100%; height:244px; background-size: cover!important;}
 	#title-and-excerpt {width:100%;}
