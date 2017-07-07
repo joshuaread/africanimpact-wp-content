@@ -100,7 +100,43 @@ jQuery(document).ready(function($){
 			</div><!--/span_9-->
 			
 			<div id="sidebar" class="col span_3 col_last">
-				<?php echo do_shortcode('[searchandfilter id="61"]'); ?>
+				
+				<h4>Project Type</h4>
+				<ul id="ProjectType">	
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_project_type=community-volunteering">Community Volunteering</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_project_type=conservation-volunteering">Conservation Volunteering</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_project_type=group-volunteering">Group Volunteering</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_project_type=internship-programs">Internship Programs</a></li>
+					<li class="fullpercent"><a href="<?php echo home_url(); ?>/results/">View All Project Types</a></li>
+				</ul>
+				<br clear="both" />
+				<h4 class="marginTop24">Impact Type</h4>
+				<ul id="ImpactType">	
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_impact_type=dolphin-marine">Dolphin & Marine</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_impact_type=game-reserve-management-training">Game Reserve Management & Training</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_impact_type=medical-hiv-aids">Medical & HIV/AIDS</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_impact_type=orphan-care">Orphan Care</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_impact_type=sports-coaching">Sports & Coaching</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_impact_type=teaching_education">Teaching & Education</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_impact_type=wildlife_research_conservation">Wildlife Research & Conservation</a></li>
+				</ul>
+				<br clear="both" />
+				<h4 class="marginTop24">Destination</h4>
+				<ul id="Destinationss">	
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_destination=south_africa">South Africa</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_destination=tanzania">Tanzania</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_destination=zambia">Zambia</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_destination=zimbabwe">Zimbabwe</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_destination=zanzibar">Zanzibar</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_destination=kenya">Kenya</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_destination=madagascar">Madagascar</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_destination=malawi">Malawi</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_destination=mozambique">Mozambique</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_destination=namibia">Namibia</a></li>
+					<li><a href="<?php echo home_url(); ?>/results/?_sft_destination=seychelles">Seychelles</a></li>
+				</ul>
+				<br clear="both" />
+				<a style="float:right;padding-top: 14px;" href="<?php echo home_url(); ?>/results/">Clear Form</a>
 			</div><!--/span_3-->
 		
 		</div><!--/row-->
