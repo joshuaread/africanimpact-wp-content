@@ -1,7 +1,60 @@
+/* CONSTANTS */
+.single-volunteer_projects .meta-author,
+.single-volunteer_projects .meta-category,
+.single-volunteer_projects .meta-comment-count,
+.single-volunteer_projects .post-meta,
+.single-volunteer_projects span.post-featured-img {display: none!important;}
+
+#search-results .result {
+	width:100%!important;
+    -o-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    background-color: #fff;
+    padding: 0px;
+    }
+#search-results .result .inner-wrap {
+    -o-box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #fff;
+    padding: 0px;
+	float: right;
+    display: block;
+    height: 316px;
+    width: 545px;
+    }
+#joshua {background: #f9f9f9;}
+#title-and-excerpt {
+	float: left;
+	width:273px;
+	padding: 30px 30px 0px;
+}
+.priceBar {background: rgba(45, 45, 45, 0.5); color:#fff; font-size: 15px; font-weight: 900; padding: 4px 16px; margin-top:281px;}
+.priceBar span.from {font-weight: 400; font-size: 12px;}
+a#result-button {font-size: 12px!important; font-weight: 900; letter-spacing: 1px;}
+a#result-button span {color:#eee;}
+a#result-button:hover span{color:#fff;}
+#title-and-excerpt h2.title {margin-bottom: 18px;}
+#title-and-excerpt h2 a {
+	font-family: "Chivo", "Open Sans", sans-serif;
+	font-weight: 900;
+	color: #000!important;
+	font-size: 20px;
+}
+p.excerpt {font-size: 14px; line-height: 18px;overflow: hidden;display: block;height: 128px; margin-bottom: 20px;}
+#title-and-excerpt h2 a:hover { color: #da5838!important}
+#sidebar .searchandfilter[data-sf-form-id="61"]
+{
+    //do stuff with this particular search form
+}
+
 /* Laptop */
 @media only screen and (min-width: 1000px){
 	
-	body.archive header#top nav > ul li.slide-out-widget-area-toggle {display: none;}
+	header#top nav > ul li.slide-out-widget-area-toggle {display: none;}
 	
 	.main-content ul {margin-top: 0px; margin-left: 18px!important; margin-bottom: 0px!important;}
 	#sidebar select {
@@ -354,7 +407,7 @@
 	#slide-out-widget-area #ProjectType a {color: #fff; text-align: center;}
 	#slide-out-widget-area #ProjectType a:hover {background:#A15D2F!important; color: #ffc; }
 
-	#slide-out-widget-area h4	{margin-bottom: 7px!important;}
+	#slide-out-widget-area h4	{margin-bottom: 7px!important; padding-left: 0px!important;}
 	#slide-out-widget-area h4.marginTop24 {margin-top: 24px!important;}
 	
 	#slide-out-widget-area ul#ImpactType {margin-left:0px!important;}
